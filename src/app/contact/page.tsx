@@ -31,7 +31,7 @@ export default function Contact() {
           </Button>
         </div>
         <div className="flex items-center justify-center space-x-4 mt-6">
-          <a href="instagram.com/vrlz._" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.instagram.com/vrlz._" target="_blank" rel="noopener noreferrer">
             <Image
               src="/images/instagram.png"
               alt="instagram"
