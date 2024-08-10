@@ -1,18 +1,22 @@
 export default function Achievements() {
   const achievements = [
     {
+      no: 1,
       title: "3rd Place in BMEC 2021",
       description: "Successfully achieved 3rd place in the BMEC 2021 competition at the national level.",
     },
     {
+      no: 2,
       title: "1st Place in Champ 2022",
       description: "Received the 1st place award in the Chemistry Champ 2022 competition at the national level.",
     },
     {
+      no: 3,
       title: "4th Place in BMEC 2022",
       description: "Once again successfully achieved 4th place in the BMEC 2022 competition at the national level."
     },
     {
+      no: 4,
       title: "Finalist in MEDSPIN 2022",
       description: "Became one of the finalists in the MEDSPIN 2022 competition at the international level."
     }
@@ -26,8 +30,7 @@ export default function Achievements() {
           {achievements.map((achievement, index) => (
             <div key={index} className="bg-white p-6 rounded-lg shadow-lg">
               <div className="flex items-center mb-4">
-                <span className="text-2xl font-bold text-gray-700">{index + 1}</span>
-                <h3 className="text-2xl font-bold">. {achievement.title}</h3>
+                <h3 className="text-2xl font-bold">{achievement.no}. {achievement.title}</h3>
               </div>
               <p className="text-gray-700">{achievement.description}</p>
             </div>
