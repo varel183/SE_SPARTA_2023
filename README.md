@@ -1,4 +1,3 @@
-```markdown
 # Portfolio Varel Tiara
 
 ## a) Penjelasan Singkat Mengenai Proyek
@@ -19,7 +18,6 @@ Untuk menjalankan program ini di localhost, ikuti langkah-langkah berikut:
 2. Buka terminal dan navigasikan ke direktori proyek.
 3. Jalankan perintah berikut untuk memulai server pengembangan:
 
-   ```bash
    npm run dev
    # atau
    yarn dev
@@ -27,7 +25,7 @@ Untuk menjalankan program ini di localhost, ikuti langkah-langkah berikut:
    pnpm dev
    # atau
    bun dev
-   ```
+   
 
 4. Buka [http://localhost:3000](http://localhost:3000) di browser Anda untuk melihat hasilnya.
 
@@ -49,4 +47,3 @@ Saya ingin mencoba bonus penggunaan basis data atau CMS, namun saat ini saya mas
 - **Email:** vareltiara@gmail.com atau 19623183@std.stei.itb.ac.id
 - **Institusi:** Institut Teknologi Bandung
 - **Jurusan:** Teknik Informatika '23
-```
